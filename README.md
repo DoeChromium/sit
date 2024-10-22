@@ -2,4 +2,4 @@
 The official repository for the OHR club Student Integrated Technologies
 
 
-Currently located at [Student-Integrated-Technologies.github.io](https://doechromium.github.io/Student-Integrated-Technologies/) - Subject to change
+Currently located at [SIT.github.io](https://doechromium.github.io/SIT/) - Subject to change
