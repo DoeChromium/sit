@@ -2,9 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');
 
 :root {
-    --text-header: rgb(73, 73, 73);
+    --text-header: rgb(107, 107, 107);
     --text-footer: rgb(138, 138, 138);
     --text-general: #7a7a7a;
+
+    &::-webkit-scrollbar {
+        width: 16px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #bdbdbd;
+        border-radius: 10px;
+        border: 3px solid #ffffff;
+    }
 }
 
 body {
@@ -172,7 +182,7 @@ body {
 
 #data {
     background-color: white;
-    height: 1000px;
+    height: fit-content;
     border: 1px rgb(255, 255, 255) solid;
     margin: auto;
     text-align: center;
@@ -200,17 +210,24 @@ body {
     margin: -1px -1px;
 }
 
-#data>h1 {
+h1,
+h2 {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     color: var(--text-general);
 }
 
+h6 {
+    opacity: 0.4;
+    margin-top: -10px;
+}
+
 #container-whoami {
     margin: auto;
+    margin-bottom: 50px;
 
     >#container {
-        box-shadow: 0 0 15px #c5c5c563;
+        box-shadow: 0 0 15px #c5c5c56b;
         width: 25%;
         display: inline-table;
         height: 330px;
@@ -221,10 +238,9 @@ body {
             background-color: #e0e0e0;
             height: 60%;
             width: 100%;
-            /* background-image: url('images/pc-mag.png');
             background-repeat: no-repeat;
-            background-size: contain;
-            background-position: center; */
+            background-size: cover;
+            background-position: center;
         }
 
         >#inner1 {
@@ -238,5 +254,59 @@ body {
                 display: none;
             }
         }
+
+        .iot {
+            background-image: url('images/iot.jpg');
+        }
+
+        .sit {
+            background-image: url('images/us.jpg');
+        }
+
+        .community {
+            background-image: url('images/technology.jpg');
+        }
+    }
+}
+
+#container-imin {
+    width: calc(100% + 2px);
+    margin: -1px -1px;
+    width: 100%;
+    height: 580px;
+    background-color: #f7f7f7;
+
+    >hr {
+        border: 0;
+        height: 1px;
+        width: 90%;
+        background-color: rgb(141, 141, 141);
+    }
+
+    >#container {
+        width: 30%;
+        height: 200px;
+        line-height: 1.4;
+        color: var(--text-general);
+        display: inline-table;
+        margin: 5px;
+
+    }
+}
+
+#container-market {
+    width: 100%;
+    height: 650px;
+
+    >#container {
+        text-align: left;
+        float: left;
+        width: 45%;
+        display: inline;
+        margin-left: 5%;
+        height: fit-content;
+        line-height: 1.4;
+        color: var(--text-general);
+        /* border: 1px solid red; */
     }
 }
