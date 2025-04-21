@@ -24,7 +24,7 @@ body {
 }
 
 .moveover {
-    margin-right: 5%;
+    margin-right: 7%;
 }
 
 .un {
@@ -208,26 +208,35 @@ body {
 
 #container-whoami {
     margin: auto;
-    border: 1px solid red;
 
     >#container {
         box-shadow: 0 0 15px #c5c5c563;
         width: 25%;
-        display: inline-block;
+        display: inline-table;
         height: 330px;
         background-color: #fff;
+        overflow: scroll;
 
         >#inner {
             background-color: #e0e0e0;
             height: 60%;
             width: 100%;
-            bottom: 0;
+            /* background-image: url('images/pc-mag.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center; */
         }
 
         >#inner1 {
+            line-height: 1.4;
             height: 40%;
             width: 100%;
-            bottom: 0;
+            color: var(--text-general);
+            overflow: scroll;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
         }
     }
 }
