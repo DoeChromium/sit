@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="shortcut icon" href="icons/sit.png" type="image/x-icon" />
-    <title>S.I.T - Home</title>
+    <title>Student Integrated Technologies</title>
     <link rel="stylesheet" href="style.css" />
     <noscript>You don't have javascript enabled. 0x02</noscript>
 </head>
@@ -13,13 +13,21 @@
         <div id="header">
             <img src="icons/sit-logo.png" id="header-logo" onclick="c1()">
             <hr>
-            <span id="header-01" class="un">Home</span>
-            <span id="header-02" class="un">About Us</span>
-            <span id="header-02" class="un">Marketplace</span>
-            <span id="header-02" class="un">Agents</span>
+            <span id="header-01" class="un" onclick="scrollHome()">Home</span>
+            <span id="header-02" class="un" onclick="scrollAboutUs()">About Us</span>
+            <span id="header-02" class="un" onclick="scrollMarket()">Marketplace</span>
+            <span id="header-02" class="un" onclick="scrollAgents()">Agents</span>
         </div>
         <div id="data">
             <img src="images/banner.png" id="banner">
+            <b id="x" onclick="removeBanner()">X</b>
+            <hr id="banner-hr">
+            <h1 id="scroll1">Who Are We?</h1>
+            <div id="container-whoami">
+                <div id="container"></div>
+                <div id="container"></div>
+                <div id="container"></div>
+            </div>
         </div>
         <div id="footer">
             <span id="footer-01" class="un">About SIT</span>
@@ -32,7 +40,7 @@
             <span id="footer-01" onclick="info()">Info</span>
             <span id="footer-02" onclick="alert('No Cookies')">Cookies</span>
             <span id="footer-02" onclick="c1()">Legacy</span>
-            <img id="footer-img-d" onclick="developer()" src="icons/developer.png"></img>
+            <img id="footer-img-d" onclick="developer()" src="icons/developer.png">
             <br><br><br><br>
             <span id="footer-a1">Copydont S.I.T<sup> ©</sup></span>
             <span id="footer-a2">Located in room 453</span>
