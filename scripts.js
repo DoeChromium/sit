@@ -3,9 +3,35 @@ function info() {
 }
 
 function developer() {
-    alert('Developer error codes\n\n0x01 · Gmail mailto: no longer works\n0x02 · Javascript disabled\n\nDeveloper attention needed\n\nCSS revision\nLogo revision\nMobile support\nRecoloring/Sat fix')
+    alert('Developer error codes\n\n0x01 · Gmail mailto: no longer works\n0x02 · Javascript disabled\n\nDeveloper attention needed\n\nCSS revision\nLogo revision\nMobile support\nRecoloring/Sat fix\nBroken gradient bar')
 }
 
 function gmailSorry() {
     alert('Sorry, the link to bring you to Gmail doesn\'t work anymore!\n\nPlease contact us through orhs.sit@gmail.com\n\n0x01')
+}
+
+function removeBanner() {
+    document.getElementById('banner').style.display = "none"
+    document.getElementById('x').style.display = "none"
+    document.getElementById('banner-hr').style.display = "block"
+}
+
+function scrollHome() {
+    document.getElementById('pre-header').scrollIntoView({ behavior: 'smooth' })
+}
+
+function scrollAboutUs() {
+    document.getElementById('about-us').scrollIntoView({ behavior: 'smooth' })
+}
+
+function scrollQA() {
+    document.getElementById('qna').scrollIntoView({ behavior: 'smooth' })
+}
+
+function scrollMarket() {
+    document.getElementById('marketplace').scrollIntoView({ behavior: 'smooth' })
+}
+
+function scrollAgents() {
+    document.getElementById('scroll4').scrollIntoView({ behavior: 'smooth' })
 }

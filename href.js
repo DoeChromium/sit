@@ -17,3 +17,7 @@ function c1() {
 function d1() {
     location.href=('https://github.com/DoeChromium/sit')
 }
+
+function e1() {
+    location.href=('/media/medialibrary.html')
+}
