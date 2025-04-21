@@ -11,7 +11,7 @@ body {
 }
 
 #body {
-    width: 1640px;
+    width: 1500px;
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.25) 0 0 9px;
 }
@@ -168,7 +168,7 @@ body {
 }
 
 #banner {
-    height: 300px;
+    width: 1500px;
     margin: -1px -1px;
 }
 
