@@ -11,6 +11,7 @@ function b2() {
 }
 
 function c1() {
+    alert('this no longer works\n\n0x03')
     location.href=('https://doechromium.github.io/sit/')
 }
 
