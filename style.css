@@ -203,16 +203,14 @@ body {
 }
 
 #container-whoami {
-    border: 1px solid red;
     margin: auto;
-    /* text-align: center; */
-    /* padding: 50px; */
 
     >#container {
-        width: 300px;
-        border: 1px solid red;
+        box-shadow: 0 0 15px #c5c5c546;
+        width: 350px;
         display: inline-block;
-        margin-left: 80px;
-        height: 300px;
+        margin: 50px;
+        height: 320px;
+        background-color: rgb(255, 255, 255);
     }
 }
