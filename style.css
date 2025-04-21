@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');
+
+:root {
+    --text-header: rgb(73, 73, 73);
+    --text-footer: rgb(138, 138, 138);
+    --text-general: #7a7a7a;
+}
 
 body {
     font-family: "Libre Franklin";
@@ -36,7 +43,7 @@ body {
 #footer {
     height: 120px;
     padding: 30px;
-    color: rgb(138, 138, 138);
+    color: var(--text-footer);
     background-color: rgb(240, 240, 240);
 
     >hr {
@@ -126,7 +133,7 @@ body {
 #header {
     height: 70px;
     background-color: rgb(255, 255, 255);
-    color: rgb(73, 73, 73);
+    color: var(--text-header);
     padding: 30px;
 
     >hr {
@@ -134,7 +141,8 @@ body {
         float: right;
         margin-top: 10px;
         height: 1px;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(141, 141, 141));
+        background-color: black;
+        /* background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(141, 141, 141)); */
         border: 0;
     }
 }
@@ -164,7 +172,24 @@ body {
     height: 800px;
     border: 1px rgb(255, 255, 255) solid;
     margin: auto;
+    text-align: center;
     padding: 0;
+
+    >b {
+        position: absolute;
+        margin: 6px 0 0 -18px;
+        color: rgb(86, 85, 131);
+        cursor: pointer;
+    }
+
+    >hr {
+        border: 0;
+        height: 1px;
+        background-color: rgb(141, 141, 141);
+        width: calc(100% + 2px);
+        margin: -1px -1px;
+        display: none;
+    }
 }
 
 #banner {
@@ -172,3 +197,8 @@ body {
     margin: -1px -1px;
 }
 
+#data>h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: var(--text-general);
+}
