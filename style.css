@@ -134,7 +134,7 @@ body {
         float: right;
         margin-top: 10px;
         height: 1px;
-        background: -webkit-gradient(linear, 0 0, 10% 0, from(rgba(0, 0, 0, 0)), color-stop(1, rgb(141, 141, 141)));
+        background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(141, 141, 141));
         border: 0;
     }
 }
