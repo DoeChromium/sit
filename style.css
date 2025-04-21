@@ -23,6 +23,10 @@ body {
     box-shadow: rgba(0, 0, 0, 0.25) 0 0 9px;
 }
 
+.moveover {
+    margin-right: 5%;
+}
+
 .un {
     display: inline-block;
 
@@ -204,13 +208,26 @@ body {
 
 #container-whoami {
     margin: auto;
+    border: 1px solid red;
 
     >#container {
-        box-shadow: 0 0 15px #c5c5c546;
-        width: 350px;
+        box-shadow: 0 0 15px #c5c5c563;
+        width: 25%;
         display: inline-block;
-        margin: 50px;
-        height: 320px;
-        background-color: rgb(255, 255, 255);
+        height: 330px;
+        background-color: #fff;
+
+        >#inner {
+            background-color: #e0e0e0;
+            height: 60%;
+            width: 100%;
+            bottom: 0;
+        }
+
+        >#inner1 {
+            height: 40%;
+            width: 100%;
+            bottom: 0;
+        }
     }
 }
