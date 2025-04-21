@@ -141,8 +141,7 @@ body {
         float: right;
         margin-top: 10px;
         height: 1px;
-        background-color: black;
-        /* background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(141, 141, 141)); */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(141, 141, 141));
         border: 0;
     }
 }
@@ -169,7 +168,7 @@ body {
 
 #data {
     background-color: white;
-    height: 800px;
+    height: 1000px;
     border: 1px rgb(255, 255, 255) solid;
     margin: auto;
     text-align: center;
@@ -201,4 +200,19 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     color: var(--text-general);
+}
+
+#container-whoami {
+    border: 1px solid red;
+    margin: auto;
+    /* text-align: center; */
+    /* padding: 50px; */
+
+    >#container {
+        width: 300px;
+        border: 1px solid red;
+        display: inline-block;
+        margin-left: 80px;
+        height: 300px;
+    }
 }
