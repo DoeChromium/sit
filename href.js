@@ -12,11 +12,11 @@ function b2() {
 
 function c1() {
     alert('this no longer works\n\n0x03')
-    location.href=('https://doechromium.github.io/sit/')
+    location.href=('https://8pairs.github.io/sit/')
 }
 
 function d1() {
-    location.href=('https://github.com/DoeChromium/sit')
+    location.href=('https://github.com/8pairs/sit')
 }
 
 function e1() {
