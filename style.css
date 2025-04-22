@@ -37,6 +37,10 @@ body {
     margin-right: 7%;
 }
 
+.footer-alert {
+    scale: 1.3;
+}
+
 .un {
     display: inline-block;
 
@@ -106,6 +110,11 @@ body {
     transition: 100ms ease-in-out;
 }
 
+[id^="footer-img-0"]:hover {
+    transform: translateY(-2px);
+    transition: 100ms ease-in-out;
+}
+
 #footer-img-01 {
     height: 20px;
     filter: invert(0.5);
@@ -137,11 +146,6 @@ body {
     cursor: pointer;
 }
 
-[id^="footer-img-0"]:hover {
-    transform: translateY(-2px);
-    transition: 100ms ease-in-out;
-}
-
 #pre-header {
     height: 25px;
     background-color: rgb(240, 240, 240);
@@ -159,8 +163,10 @@ body {
         float: right;
         margin-top: 10px;
         height: 1px;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(141, 141, 141));
         border: 0;
+        background-size: cover;
+        background-image: url(images/hr-fix.png);
+        background-repeat: no-repeat;
     }
 }
 
@@ -234,7 +240,7 @@ h6 {
         box-shadow: 0 0 15px #c5c5c56b;
         width: 25%;
         display: inline-table;
-        height: 330px;
+        height: 360px;
         background-color: #fff;
         overflow: scroll;
 
@@ -248,9 +254,10 @@ h6 {
         }
 
         >#inner1 {
+            padding-left: 15px;
+            padding-right: 15px;
             line-height: 1.4;
             height: 40%;
-            width: 100%;
             color: var(--text-general);
             overflow: scroll;
 
@@ -297,38 +304,6 @@ h6 {
     }
 }
 
-#container-market {
-    background-color: #f7f7f7;
-    width: calc(100% + 2px);
-    margin: -1px -1px;
-    width: 100%;
-    height: 700px;
-
-    >hr {
-        border: 0;
-        height: 1px;
-        width: 90%;
-        background-color: rgb(141, 141, 141);
-    }
-
-    >#container {
-        text-align: left;
-        float: left;
-        width: 45%;
-        display: inline;
-        margin-left: 5%;
-        height: fit-content;
-        line-height: 1.4;
-        color: var(--text-general);
-    }
-
-    >img {
-        width: 30%;
-        opacity: .6;
-        margin-top: 40px;
-    }
-}
-
 #container-agents {
     height: 1000px;
     width: 100%;
@@ -366,12 +341,47 @@ h6 {
     }
 }
 
+#container-market {
+    background-color: #f7f7f7;
+    width: calc(100% + 2px);
+    margin: -1px -1px;
+    width: 100%;
+    height: 740px;
+
+    >hr {
+        border: 0;
+        height: 1px;
+        width: 90%;
+        background-color: rgb(141, 141, 141);
+    }
+
+    >#container {
+        text-align: left;
+        float: left;
+        width: 45%;
+        display: inline;
+        margin-left: 5%;
+        height: fit-content;
+        line-height: 1.4;
+        color: var(--text-general);
+    }
+
+    >img {
+        max-width: 500px;
+        width: 30%;
+        opacity: .6;
+        margin-top: 40px;
+    }
+}
+
 #container-other {
     width: 100%;
     height: 350px;
 
     >#container {
-        width: 25%;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 23%;
         display: inline-table;
         height: 200px;
         line-height: 1.4;

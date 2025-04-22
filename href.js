@@ -20,5 +20,5 @@ function d1() {
 }
 
 function e1() {
-    location.href=('/sit/media/medialibrary.html')
+    location.href=('/media/medialibrary.html')
 }

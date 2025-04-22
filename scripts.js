@@ -39,3 +39,14 @@ function scrollAgents() {
 function scrollOther() {
     document.getElementById('other').scrollIntoView({ behavior: 'smooth' })
 }
+
+function contactUs() {
+    document.getElementById('footer-img-01').classList.toggle('footer-alert');
+    document.getElementById('footer-img-02').classList.toggle('footer-alert');
+    document.getElementById('footer-img-03').classList.toggle('footer-alert');
+    setTimeout(() => {
+        document.getElementById('footer-img-01').classList.toggle('footer-alert');
+        document.getElementById('footer-img-02').classList.toggle('footer-alert');
+        document.getElementById('footer-img-03').classList.toggle('footer-alert');
+      }, 1000);
+}
