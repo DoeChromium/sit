@@ -1,5 +1,5 @@
 function info() {
-    alert('Version 3.0 STABLE\nMobile Support: n/a\nWebsite Revision Version: 3\n\nCurrent URL: https://doechromium.github.io/sit/\nNon-responsive, no forms or sql\n\nContact Isaac for changes')
+    alert('Version 3.1 STABLE\nMobile Support: n/a\nWebsite Revision Version: 3\n\nCurrent URL: https://doechromium.github.io/sit/\nNon-responsive, no forms or sql\n\nContact Isaac for changes')
 }
 
 function developer() {
@@ -40,13 +40,31 @@ function scrollOther() {
     document.getElementById('other').scrollIntoView({ behavior: 'smooth' })
 }
 
+var o1 = document.getElementById('footer-img-01');
+var o2 = document.getElementById('footer-img-02');
+var o3 = document.getElementById('footer-img-03');
+
 function contactUs() {
-    document.getElementById('footer-img-01').classList.toggle('footer-alert');
-    document.getElementById('footer-img-02').classList.toggle('footer-alert');
-    document.getElementById('footer-img-03').classList.toggle('footer-alert');
+    o1.classList.toggle('footer-alert');
+    o2.classList.toggle('footer-alert');
+    o3.classList.toggle('footer-alert');
     setTimeout(() => {
-        document.getElementById('footer-img-01').classList.toggle('footer-alert');
-        document.getElementById('footer-img-02').classList.toggle('footer-alert');
-        document.getElementById('footer-img-03').classList.toggle('footer-alert');
-      }, 1000);
+        o1.classList.toggle('footer-alert');
+        o2.classList.toggle('footer-alert');
+        o3.classList.toggle('footer-alert');
+    }, 1000);
+}
+
+function linkedB() {
+    document.getElementById('footer-img-01').scrollIntoView({ behavior: 'smooth' })
+    setTimeout(() => {
+        o1.classList.toggle('footer-alert');
+        o2.classList.toggle('footer-alert');
+        o3.classList.toggle('footer-alert');
+    }, 1000);
+    setTimeout(() => {
+        o1.classList.toggle('footer-alert');
+        o2.classList.toggle('footer-alert');
+        o3.classList.toggle('footer-alert');
+    }, 1800);
 }
