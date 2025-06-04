@@ -1,6 +1,6 @@
-alertBlock
+alertBlock()
 function alertBlock() {
-    alert('Warning: This site may be blocked on the SUHSD network, please use a personal device with mobile cell service, or on a personal network.\n\nWe are working on getting our site unblocked as alternatives are not free. If you would like to contribute, please email [ it.help@sweetwaterschools.org ] following the email format listed in our announcements channel here [ https://discord.gg/w8wq64D7v5 ].\n\nThank You!')
+    alert('Warning: This site may be blocked on the SUHSD network, please use a personal device with mobile cell service, or on a personal network.\n\nWe are working on getting our site unblocked as alternatives are not free. If you would like to contribute, please email [ it.help@sweetwaterschools.org ] following the email format listed in our announcements channel here [ https://discord.gg/w8wq64D7v5 ].\n\nThank You!n\n0x04')
 }
 
 function info() {
@@ -8,7 +8,7 @@ function info() {
 }
 
 function developer() {
-    alert('Developer error codes\n\n0x01 · Gmail mailto: no longer works\n0x02 · Javascript disabled\n0x03 · Legacy website no longer works\n\nDeveloper attention needed\n\nCSS revision\nLogo revision\nMobile support\nRecoloring/Sat fix\nDark mode?\nMore / more refined information')
+    alert('Developer error codes\n\n0x01 · Gmail mailto: no longer works\n0x02 · Javascript disabled\n0x03 · Legacy website no longer works\n0x04 · Website blocked alert\n\nDeveloper attention needed\n\nCSS revision\nLogo revision\nMobile support\nRecoloring/Sat fix\nDark mode?\nMore / more refined information')
 }
 
 function gmailSorry() {
