@@ -37,8 +37,8 @@ function scrollMarket() {
     document.getElementById('marketplace').scrollIntoView({ behavior: 'smooth' })
 }
 
-function scrollAgents() {
-    document.getElementById('agents').scrollIntoView({ behavior: 'smooth' })
+function scrollOfficers() {
+    document.getElementById('officers').scrollIntoView({ behavior: 'smooth' })
 }
 
 function scrollOther() {
