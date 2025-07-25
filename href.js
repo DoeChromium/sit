@@ -1,3 +1,8 @@
+function goober() {
+    location.href=('https://8pairs.github.io/sit/images/goobies.png')
+}
+// goobies (SHHHH)
+
 function a1() {
     location.href=('https://docs.google.com/forms/d/e/1FAIpQLSfRCxJ9Ze56ej9-DBKNMAIvc-wO2iVONtDEPFUEInntmv4vBA/viewform')
 }
