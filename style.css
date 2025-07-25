@@ -80,7 +80,8 @@ body {
     cursor: pointer;
 }
 
-#footer-02 {
+#footer-02,
+#footer-03 {
     margin-left: 50px;
     cursor: pointer;
 }
